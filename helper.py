@@ -1,5 +1,6 @@
 __author__ = 'tht5cs'
 
+from loop import badLoop
+
 def greeting(msg) :
-    for i in range (0,3) :
-        print(msg)
+    badLoop(5)
