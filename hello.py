@@ -1,7 +1,6 @@
 __author__ = "tht5cs"
 
+from helper import greeting
 
-def greeting(msg) :
-    print(msg)
 
 greeting("hello")
